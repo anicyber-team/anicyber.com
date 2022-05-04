@@ -3,9 +3,53 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ANICYBER</title>
+  <style>
+    body {
+        text-align: center;
+        color: #333;
+    }
+    body, button {
+        font-size: 1.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    main {
+        width: max-content;
+        margin: auto auto;
+        margin-top: 25%;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background: #222;
+        }
+        body, main, footer {
+            color: #eee;
+        }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>ANICYBER</h1>
+
+    <main>
+        <h1>ANICYBER</h1>
+        <blockquote>Human Technology</blockquote>
+        <br />
+        
+        <details>
+            <summary>Web Design</summary>
+            <p>View our sample websites or contact us to get started</p>
+            <a href="https://www.fiverr.com/anicybergroup"><button>Samples</button></a>
+            <a href="https://www.fiverr.com/anicybergroup"><button>Contact Us</button></a>
+        </details>
+
+    </main>
+
+    <footer>Ⓒ 2022 ANICYBER | All Rights Reserved</footer>
 </body>
 </html>
