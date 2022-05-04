@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    color: #333;
+}
+body, button, p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin: auto auto;
+    margin-top: 25%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+article {
+    border: 1px solid white;
+    padding: -200px;
+}
+article::after, details::after {
+    content: "\A\A";
+    white-space: pre;
+}
+@media (prefers-color-scheme: dark) {
+    body, footer {
+        background: #222;
+    }
+    body, main, footer {
+        color: #eee;
+    }
+}
