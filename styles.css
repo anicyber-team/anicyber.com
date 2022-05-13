@@ -58,6 +58,9 @@ mark {
     background: none;
     background-color: none;
 }
+button {
+    border-radius: 6px;
+}
 @media (prefers-color-scheme: dark) {
     body, footer {
         background: #222;
