@@ -12,6 +12,15 @@
 .tertiary-font {
     color: var(--tertiary);
 }
+.primary-border {
+    border-color: var(--primary);
+}
+.secondary-border {
+    border-color: var(--secondary);
+}
+.tertiary-border {
+    border-color: var(--tertiary);
+}
 .company-title {
     font-size: 2.5em;
     margin-bottom: .1em;
@@ -35,6 +44,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: white;
+    font-size: .5em;
 }
 article {
     border: 3px solid white;
@@ -43,6 +53,10 @@ article {
 article::after, details::after {
     content: "\A\A";
     white-space: pre;
+}
+mark {
+    background: none;
+    background-color: none;
 }
 @media (prefers-color-scheme: dark) {
     body, footer {
