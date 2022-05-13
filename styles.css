@@ -9,6 +9,7 @@ body, button, p {
 main {
     margin: auto auto;
     margin-top: 1em;
+    margin-bottom: 3em;
 }
 footer {
     position: fixed;
