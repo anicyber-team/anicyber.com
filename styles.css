@@ -60,6 +60,7 @@ mark {
 }
 button {
     border-radius: 6px;
+    background: white;
 }
 @media (prefers-color-scheme: dark) {
     body, footer {
