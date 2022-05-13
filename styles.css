@@ -26,6 +26,12 @@
     margin-bottom: .1em;
     font-family: monospace;
 }
+.company-title, h1, h2, h3 {
+    font-family: monospace;
+}
+h2 {
+    font-size: 200%;
+}
 body {
     text-align: center;
     color: #333;
