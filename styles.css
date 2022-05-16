@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Baumans';
+    src: url(/assets/Baumans-Regular.ttf);
+}
 :root {
     --primary: #ff9ab9;
     --secondary: #01fff3;
     --tertiary: #0099ff;
+    --light: #eee;
+    --dark: #111;
 }
 .primary-font {
     color: var(--primary);
@@ -48,13 +54,16 @@
 }
 .socicon {
     max-width: 2em;
+    filter: drop-shadow(1px 1px #333);
 }
 h2 {
     font-size: 200%;
 }
 body {
     text-align: center;
-    color: #333;
+    color: #222;
+    background: var(--light);
+    text-shadow: 1px 1px #333;
 }
 body, button, p {
     font-size: 1.5em;
@@ -69,12 +78,15 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: white;
+    background: var(--light);
     font-size: .5em;
 }
 article {
-    border: 3px solid white;
+    border: .3em solid var(--dark);
     border-radius: 6px;
+    max-width: 720px;
+    margin: auto;
+    box-shadow: 2px 2px 3px 3px var();
 }
 article::after, details::after {
     content: "\A\A";
@@ -86,13 +98,20 @@ mark {
 }
 button {
     border-radius: 6px;
-    background: white;
+    background: var(--light);
 }
 @media (prefers-color-scheme: dark) {
     body, footer {
-        background: #222;
+        background: var(--dark);
+        text-shadow: 1px 1px #333;
     }
     body, main, footer {
-        color: #eee;
+        color: var(--light);
+    }
+    article {
+        border-color: var(--light);
+    }
+    .socicon {
+        filter: drop-shadow(1px 1px #333);
     }
 }
