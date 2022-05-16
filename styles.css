@@ -43,8 +43,11 @@
     color: var(--secondary);
     text-decoration: underline;
 }
-.m-10 {
+.m-1em {
     margin: 1em;
+}
+.socicon {
+    max-width: 2em;
 }
 h2 {
     font-size: 200%;
