@@ -1,7 +1,7 @@
 :root {
-    --primary: #ff6ad5;
-    --secondary: #10d7ae;
-    --tertiary: #fe7771;
+    --primary: #ff9ab9;
+    --secondary: #01fff3;
+    --tertiary: #0099ff;
 }
 .primary-font {
     color: var(--primary);
@@ -25,6 +25,9 @@
     font-size: 2.5em;
     margin-bottom: .1em;
     font-family: monospace;
+}
+.company-tagline {
+    font-style: oblique;
 }
 .company-title, h1, h2, h3 {
     font-family: monospace;
