@@ -99,8 +99,6 @@ article {
     margin: auto;
     margin-bottom: 1em;
     padding: 1em;
-    padding-left: .5em;
-    padding-right: .5em;
 }
 article::after, details::after {
     content: "\A\A";
